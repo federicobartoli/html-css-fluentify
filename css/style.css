@@ -204,19 +204,13 @@ hr {
 /* inizio styling banner */
 
 
-.testoimportante {
-    height: 70px;
-    width: 50%;
-    float: left;
-    color: white;
-
-}
 
 .testopulsante {
     padding-left: 50px;
     position: absolute;
     top: 50%;
     transform: translate(-0%, -50%);
+    color: white;
 }
 
 .testopulsante a {
