@@ -25,6 +25,26 @@
     height: 500px;
 }
 
+.hoverorange:hover {
+    color: orange;
+}
+
+.button {
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.greenbutton {
+    background-color: #4CAF50;
+    border: none;
+}
+
 /* styling header  */
 header {
     margin: 0;
