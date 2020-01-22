@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-fullwidth {
+    background-color: #0d325a;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 500px;
+}
+
+/* styling header  */
+header {
+    margin: 0;
+    height: 70px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.logonav {
+    height: 70px;
+    width: 18%;
+    position: relative;
+    float: left;
+}
+
+.logofluentify {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.navbarlinks {
+    height: 70px;
+    width: 60%;
+    float: left;
+    position: relative;
+}
+
+.linksnav {
+    position: absolute;
+    top: 50%;
+    transform: translate(-0%, -50%);
+}
+
+.linksnav a {
+    margin-left: 10px;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbarlinklogin {
+    width: 22%;
+    height: 70px;
+    float: left;
+    position: relative;
+}
+
+#tutor {
+    color: grey;
+    position: relative;
+    left:200px
+}
+
+/* end styling header */
+.grigio {
+    background-color: grey;
+}
+
+.bianco {
+    background-color: white;
+}
+
+.riga-grigia {
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.riga-bianca {
+    height: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+.cards {
+    width: 33.3333%;
+    float:left;
+    /* da cancellare */
+    height:200px;
+    background-color: purple;
+    border: 1px solid black;
+}
+
+.banner {
+    /* ragiona che devi uscire dalla row */
+    background-image: //
+}
