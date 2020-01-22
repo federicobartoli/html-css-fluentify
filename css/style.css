@@ -122,12 +122,22 @@ header {
 }
 
 .riga-bianca {
-    height: 100px;
+    height: 800px;
     background-color: white;
     width: 100%;
+
 }
 
+.textcards {
+    margin-top: 40px;
+    text-align: center;
+}
 
+.green {
+    color: #7fb802;
+    font-size: 25px;
+    font-weight: bolder;
+}
 
 .centratura {
     text-align: center;
@@ -137,15 +147,44 @@ header {
     transform: translate(-50%, -50%);
 }
 
+/* inizio styling cards */
 .cards {
     width: 33.3333%;
     float:left;
     /* da cancellare */
-    height:200px;
-    background-color: purple;
-    border: 1px solid black;
+    height:30%;
+    position: relative;
 }
 
+#profile {
+    height: 160px;
+    margin-top: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#computer {
+    height: 143px;
+    margin-top: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#doc {
+    height: 152px;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* fine styling cards */
 
 /* inizio styling banner */
 
@@ -179,6 +218,7 @@ h1 {
 /* fine styling banner */
 
 #testogrigio {
+    margin-top: 10px;
     color: grey;
     font-size: 15px;
 }
