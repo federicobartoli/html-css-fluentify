@@ -25,8 +25,16 @@
 }
 
 .banner {
-    height: 450px;
+    height: 424px;
+    position: relative;
+}
 
+.banner::after {
+    content: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    position: absolute;
+    left: 60%;
+    transform-origin: 0 0;
+    transform: scale(.5) translate(-70px,25px);
 }
 
 .hoverorange:hover {
